@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 100%;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply text-gray-500;
+    }
+
+    button {
+        @apply outline-none;
+    }
+}
